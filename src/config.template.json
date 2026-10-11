@@ -1,0 +1,19 @@
+{
+  "project_root": "/home/student/cas9_project/submission/cas9_submission_7steps_20261001/resources",
+  "reference_run": "/home/student/cas9_project/submission/cas9_submission_7steps_20261001",
+  "run_dir": "/home/student/cas9_project/submission/cas9_submission_7steps_20261001/new_run",
+  "reference_fasta": "/home/student/cas9_project/submission/cas9_submission_7steps_20261001/inputs/reference_candidates.fasta",
+  "train_variants": "/home/student/cas9_project/submission/cas9_submission_7steps_20261001/inputs/train_variants.txt",
+  "colabfold_cache": "/home/student/cas9_project/submission/cas9_submission_7steps_20261001/resources/colabfold/cache",
+  "msa_roots": [
+    "/home/student/cas9_project/submission/cas9_submission_7steps_20261001/inputs/06_colabfold_msa"
+  ],
+  "environments": {
+    "pammla": "/home/student/cas9_project/envs/PAMmla_env",
+    "progen2": "/home/student/cas9_project/envs/progen2_repro",
+    "esmc": "/home/student/cas9_project/envs/esmc_repro",
+    "colabfold": "/home/student/cas9_project/envs/colabfold"
+  },
+  "gpu": "0",
+  "esmc_mask_batch_size": 3
+}

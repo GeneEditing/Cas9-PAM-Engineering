@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "ESMCForMaskedLM"
+  ],
+  "classifier_dropout": 0.1,
+  "d_model": 1152,
+  "dtype": "float32",
+  "initializer_range": 0.02,
+  "mask_token_id": 32,
+  "model_type": "esmc",
+  "n_heads": 18,
+  "n_layers": 36,
+  "pad_token_id": 1,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "vocab_size": 64
+}

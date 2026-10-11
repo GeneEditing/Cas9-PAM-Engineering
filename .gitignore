@@ -1,0 +1,21 @@
+# Machine-specific paths and local environments
+src/config.json
+.envs/
+__pycache__/
+*.py[cod]
+
+# Runtime logs and generated outputs
+logs/
+new_run/
+results/
+results.csv
+inputs/03_progen2/
+inputs/06_colabfold_msa/
+inputs/07_final_ranking/
+inputs/reference_run/
+
+# Large third-party model checkpoints (fetch separately)
+resources/PAMmla/220924_NN_rand_seed*/saved_model/variables/variables.data-*
+resources/colabfold/cache/params/*.npz
+resources/esmc_models/ESMC-600M/*.safetensors
+resources/progen2/checkpoints/progen2-base/pytorch_model.bin
