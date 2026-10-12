@@ -1,6 +1,6 @@
 # Cas9-PAM-Engineering
 
-This repository provides a **third-party model inference and candidate screening workflow**. Our code prepares inputs, invokes model inference, screens candidates, summarizes structural metrics, and produces the final ranking.
+Cas9-PAM-Engineering is **our pipeline for screening and ranking Cas9 PAM variants**. It integrates established models and tools—[PAMmla](https://github.com/RachelSilverstein/PAMmla), [ProGen2](https://github.com/salesforce/progen), [ESM-C](https://github.com/evolutionaryscale/esm), and [ColabFold](https://github.com/sokrypton/ColabFold). Our code prepares inputs, runs model inference, filters candidates, summarizes structural metrics, and produces the final ranking.
 
 ## Models and inference
 
